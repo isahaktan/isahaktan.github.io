@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('Media/dincertekin.gif');
+    background-image: url('Media/gunslinga.gif');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -12,20 +12,24 @@ body{
     width: 500px;
     height: 500px;
     padding: 10px;
-    background-color: lightgray;
+    background-color:lightgray;
     border-radius: 10px;
     opacity: 0.5;
 }
 .button{
+    border: thick double black;
     color: black;
     width: 500px;
     height: 100px;
     padding: 5px;
     margin-top: 10px;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Prata", serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 60px;
+
+
 }
 #Dark{
     position: fixed;
@@ -42,11 +46,20 @@ body{
 }
 
 .click{
-
     color: white;
-    font-family: "Clicker Script", cursive;
+    font-family: "Baskervville SC", serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 60px;
-
+    width: 29ch;
+    animation: typing 2s steps(29);
+    white-space: nowrap;
+    overflow: hidden;
 }
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
