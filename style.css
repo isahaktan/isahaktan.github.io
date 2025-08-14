@@ -1,0 +1,25 @@
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('Media/dincertekin.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.Box{
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.buton{
+    color: black;
+    width: 500px;
+    height: 100px;
+    padding: 5px;
+}
